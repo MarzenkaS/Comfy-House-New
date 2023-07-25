@@ -49,5 +49,30 @@ body {
 
 #navigation a:hover {
     border-bottom: 2px solid black;
+    color: green;
 }
 
+
+
+
+
+/* section */
+
+main {
+    text-align: center;
+    padding-top: 170px;
+}
+
+#first-section {
+    padding-bottom: 30px;
+
+}
+
+#second-section {
+    padding-bottom: 30px;
+}
+
+.text {}
+
+
+/* footer */
