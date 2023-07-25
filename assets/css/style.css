@@ -8,4 +8,46 @@
 
 body {
     color: black;
+    font-family: kanit, sans-serif;
+    font-weight: 500px;
+
 }
+
+/* header, logo and navigations links */
+
+#logo {
+
+    float: left;
+    margin: 30px 30px;
+    font-size: 50px;
+    color: black;
+
+}
+
+#navigation {
+    float: right;
+    margin: 30px 30px;
+    font-size: 20px;
+
+}
+
+#navigation a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#navigation>li {
+    float: right;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+#logo,
+#navigation {
+    line-height: 50px;
+}
+
+#navigation a:hover {
+    border-bottom: 2px solid black;
+}
+
