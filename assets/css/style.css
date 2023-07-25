@@ -76,3 +76,9 @@ main {
 
 
 /* footer */
+iframe {
+    margin-top: 30px;
+    margin-left: 20%;
+    margin-right: 0;
+    margin-bottom: 30px;
+}
