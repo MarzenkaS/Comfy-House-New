@@ -38,7 +38,7 @@ body {
 }
 
 #logo:hover {
-    color: green;
+    color: darkgreen;
 }
 
 
@@ -84,6 +84,7 @@ body {
 main {
     text-align: center;
     padding-top: 200px;
+    margin-bottom: 30px;
 }
 
 #first-section {
@@ -95,11 +96,28 @@ main {
     padding-bottom: 30px;
 }
 
-
+#first-section h2,
+#second-section h2 {
+    text-decoration: underline;
+}
 
 /* footer */
 #contact {
-    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-left: 45%;
+    float: left;
+
+}
+
+#contact h2 {
+    text-decoration: underline;
+
+}
+
+#contact p {
+    color: rgb(10, 10, 10);
+    font-weight: bolder;
+
 }
 
 iframe {
@@ -107,6 +125,7 @@ iframe {
     margin-left: 20%;
     margin-right: 0;
     margin-bottom: 30px;
+
 }
 
 
