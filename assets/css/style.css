@@ -21,6 +21,8 @@ body {
     background-size: auto;
 }
 
+#gallery-image {}
+
 /* header, logo and navigations links */
 
 #logo {
@@ -30,6 +32,16 @@ body {
     font-size: 50px;
     color: black;
 }
+
+#logo a {
+    text-decoration: none
+}
+
+#logo:hover {
+    color: green;
+}
+
+
 
 #navigation {
     float: right;
@@ -56,8 +68,12 @@ body {
 
 #navigation a:hover {
     border-bottom: 2px solid black;
-    color: green;
+    color: darkgreen;
 }
+
+
+
+
 
 
 
@@ -79,13 +95,20 @@ main {
     padding-bottom: 30px;
 }
 
+
+
 /* footer */
+#contact {
+    margin-bottom: 10px;
+}
+
 iframe {
     margin-top: 30px;
     margin-left: 20%;
     margin-right: 0;
     margin-bottom: 30px;
 }
+
 
 footer {
     height: 100px;
