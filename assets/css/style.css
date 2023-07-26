@@ -9,9 +9,11 @@
 body {
     color: black;
     font-family: kanit, sans-serif;
-    font-weight: 500px;
+}
 
-
+h1,
+h2 {
+    font-family: raleway, sans-serif;
 }
 
 #main-image {
@@ -20,14 +22,9 @@ body {
     background-color: aqua;
     background-size: auto;
     background-attachment: scroll;
-
 }
 
-
-
 /* header, logo and navigations links */
-
-
 
 #logo {
 
@@ -45,13 +42,11 @@ body {
     color: rgb(20, 201, 20);
 }
 
-
-
 #navigation {
     float: right;
     margin: 30px 30px;
     font-size: 20px;
-
+    letter-spacing: 4px;
 }
 
 #navigation a {
@@ -156,16 +151,49 @@ footer {
 
 #booking-image {
     background-image: url(../images/water1.jpg);
+    background-size: fixed;
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-color: aqua;
-    background-size: cover;
-    background-attachment: scroll;
+}
+
+/* form */
+
+form {
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+form h2 {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+input[type=text],
+input[type=email],
+input[select=adults],
+input[select=kids],
+input[select=pets],
+input[type=radio],
+input[type=number] {
+    height: 20px;
+    width: 40%;
+    margin: 0 auto;
+    display: block;
+}
+
+#form-section {
+    padding: 15% 10% 5% 10%;
 }
 
 #reservation {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    text-align: center;
+    background-color: rgb(245, 240, 240, 1);
+    border: 1px solid black;
+    border-radius: 5px;
 }
+
 
 /* form feedback */
 
@@ -173,4 +201,5 @@ footer {
     text-align: center;
     padding-top: 15%;
     padding-bottom: 3%;
+    color: rgb(238, 34, 61);
 }
