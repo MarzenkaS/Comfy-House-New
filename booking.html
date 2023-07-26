@@ -52,19 +52,36 @@
             <label for="email">Email Address</label>
             <input id="email" type="email" name="email_address" required placeholder="Email Address">
 
-            <label></label>
-            <input>
+            <label for="adults">How many adults</label>
+            <select id="adults" name="adults" required>
+                <option value="one-two">1-2</option>
+                <option value="three-four">3-4</option>
+                <option value="five-six">5-6</option>
+                <option value="seven-eight">7-8</option>
+            </select>
 
-            <label></label>
-            <input>
 
-            <label></label>
-            <input>
+            <label for="kids">How many kids</label>
+            <select id="kids" name="kids" required>
+                <option value="one-two">1-2</option>
+                <option value="three-four">3-4</option>
+                <option value="five-six">5-6</option>
+                <option value="seven-eight">7-8</option>
+            </select>
 
-            <label></label>
-            <input>
+
+            <label for="pets">Pets</label>
+            <label for="yes">Yes</label>
+            <input type="radio" value="yes" id="yes" name="yes">
+            <label for="no">No</label>
+            <input type="radio" value="no" id="no" name="no">
+
+            <label for="date">Date</label>
+            <input id="date" type="number" name="date" required placeholder="from...to...">
+
 
             <input type="submit" value="Send request">
+
 
 
 
