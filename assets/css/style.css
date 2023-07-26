@@ -10,11 +10,15 @@ body {
     color: black;
     font-family: kanit, sans-serif;
     font-weight: 500px;
+
+
+}
+
+#main-image {
     background-image: url(../images/beach1\ compr.webp);
     background-repeat: no-repeat;
     background-color: aqua;
     background-size: auto;
-
 }
 
 /* header, logo and navigations links */
