@@ -161,3 +161,16 @@ footer {
     background-size: cover;
     background-attachment: scroll;
 }
+
+#reservation {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* form feedback */
+
+#feedback {
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 3%;
+}
