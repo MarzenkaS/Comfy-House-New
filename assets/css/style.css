@@ -163,6 +163,11 @@ form {
     text-align: center;
     margin-left: 25%;
     margin-right: 25%;
+
+}
+
+#form-section {
+    padding: 15% 10% 5% 10%;
 }
 
 form h2 {
@@ -175,31 +180,53 @@ input[type=email],
 input[select=adults],
 input[select=kids],
 input[select=pets],
-input[type=radio],
-input[type=number] {
+input[type=radio] {
     height: 20px;
     width: 40%;
     margin: 0 auto;
     display: block;
 }
 
-#form-section {
-    padding: 15% 10% 5% 10%;
+#select {
+    display: block;
+}
+
+#radio {
+    width: 100%;
 }
 
 #reservation {
     text-align: center;
-    background-color: rgb(245, 240, 240, 1);
+    background-color: rgb(245, 240, 240, 6);
     border: 1px solid black;
     border-radius: 5px;
+    background: transparent;
 }
 
-
-/* form feedback */
-
-#feedback {
+#request-button {
+    margin-top: 20px;
+    margin-left: 40%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    font-size: 100%;
+    display: block;
     text-align: center;
-    padding-top: 15%;
-    padding-bottom: 3%;
-    color: rgb(238, 34, 61);
+    color: black;
+    border: none;
+    background-color: red;
+    padding: 10px 15px 10px 15px;
+    font-weight: 600;
 }
+
+.request-button:hover {
+    background-color: black;
+    color: red;
+
+    /* form feedback */
+
+    #feedback {
+        text-align: center;
+        padding-top: 15%;
+        padding-bottom: 3%;
+        color: rgb(238, 34, 61);
+    }
