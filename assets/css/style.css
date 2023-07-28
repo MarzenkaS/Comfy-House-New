@@ -26,6 +26,11 @@ h2 {
 
 /* header, logo and navigations links */
 
+header {
+    height: 140px;
+    background-color: black;
+}
+
 #logo {
 
     float: left;
@@ -73,6 +78,22 @@ h2 {
     color: rgb(236, 73, 95);
 }
 
+
+.logo-gallery {
+    float: left;
+    margin: 30px 30px;
+    font-size: 50px;
+    color: black;
+}
+
+.logo-gallery a {
+    text-decoration: none;
+}
+
+.logo-gallery:hover {
+    color: rgb(250, 77, 25);
+}
+
 #navigation {
     float: right;
     margin: 30px 30px;
@@ -110,6 +131,10 @@ h2 {
     color: rgb(236, 73, 95);
 }
 
+.gallery-navigation {
+    color: rgb(250, 77, 25)
+}
+
 /* section */
 
 main {
@@ -140,6 +165,14 @@ main {
 
 
 /* footer */
+
+footer {
+    height: 700px;
+    background-color: red;
+    opacity: 0.5;
+
+}
+
 #contact {
     padding-bottom: 10px;
     padding-left: 45%;
@@ -158,10 +191,7 @@ iframe {
     margin-left: 20%;
     margin-right: 0;
     margin-bottom: 30px;
-}
-
-footer {
-    height: 100px;
+    opacity: none;
 }
 
 .social-media {
@@ -184,7 +214,15 @@ footer {
     background-repeat: no-repeat;
     background-color: aqua;
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
+}
+
+
+
+#photos {
+
+    padding-top: 400px;
+    margin-bottom: 200px;
 }
 
 /* booking page */
