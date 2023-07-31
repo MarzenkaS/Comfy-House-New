@@ -28,7 +28,7 @@ h2 {
 
 header {
     height: 140px;
-    background-color: black;
+
 }
 
 #logo {
@@ -135,11 +135,11 @@ header {
     color: rgb(250, 77, 25)
 }
 
-/* section */
+/* main page section */
 
 main {
-    text-align: center;
-    padding-top: 200px;
+    
+    padding-top: 100px;
     margin-bottom: 40px;
 }
 
@@ -168,8 +168,7 @@ main {
 
 footer {
     height: 700px;
-    background-color: red;
-    opacity: 0.5;
+    opacity: none;
 
 }
 
@@ -191,7 +190,7 @@ iframe {
     margin-left: 20%;
     margin-right: 0;
     margin-bottom: 30px;
-    opacity: none;
+
 }
 
 .social-media {
@@ -218,9 +217,8 @@ iframe {
 }
 
 
-
 #photos {
-
+    height: 600px;
     padding-top: 400px;
     margin-bottom: 200px;
 }
@@ -246,7 +244,7 @@ form {
 }
 
 #form-section {
-    padding: 15% 10% 5% 10%;
+    padding: 5% 10% 5% 10%;
 }
 
 form h2 {
