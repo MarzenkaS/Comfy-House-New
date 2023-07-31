@@ -235,6 +235,11 @@ iframe {
     height: 40%;
 }
 
+#photos h2 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 /* booking page */
 
 #booking-image {
