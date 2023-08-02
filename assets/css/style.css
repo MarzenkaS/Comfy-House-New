@@ -17,7 +17,7 @@ h2 {
 }
 
 #main-image {
-    background-image: url(../images/beach1\ compr.webp);
+    background-image: url(../images/beach1\ compr\ \(1\).webp);
     background-repeat: no-repeat;
     background-color: aqua;
     background-size: cover;
@@ -357,3 +357,25 @@ input[type=radio] {
     color: rgb(236, 73, 95);
     font-size: xx-large;
 }
+
+
+/* media queries */
+
+
+/* For small screens sizes from 800px wide and down */
+
+@media screen and (max-width: 800px) {}
+
+
+
+
+/* For medium screens sizes from 950px wide and down */
+
+@media screen and (max-width: 950px) {}
+
+
+
+
+/* For large to medium screens sizes from 1200px wide and down */
+
+@media screen and (max-width: 1200px) {}
