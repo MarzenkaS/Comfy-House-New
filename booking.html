@@ -52,7 +52,7 @@
             <br>
             <div id="select">
                 <label for="adults">How many adults</label>
-                <select id="adults" name="adults" required>
+                <select id="adults" name="adults">
                     <option value="one-two">1-2</option>
                     <option value="three-four">3-4</option>
                     <option value="five-six">5-6</option>
@@ -60,7 +60,7 @@
                 </select>
                 <hr>
                 <label for="kids">How many kids</label>
-                <select id="kids" name="kids" required>
+                <select id="kids" name="kids">
                     <option value="one-two">1-2</option>
                     <option value="three-four">3-4</option>
                     <option value="five-six">5-6</option>
@@ -69,8 +69,7 @@
                 <br>
             </div>
             <div id="radio">
-                <label for="pets">Pets</label>
-                <br>
+                <p>Pets:</p>
                 <label for="first-option">Yes</label>
                 <input type="radio" value="yes" id="first-option" name="pest">
                 <hr>
@@ -79,9 +78,9 @@
             </div>
             <br>
             <label for="date">Date</label>
-            <input id="date" type="date" name="date" required placeholder="date from...">
+            <input id="date" type="date" name="date" required>
             <label for="nights">Number of nights</label>
-            <input type="number" id="nights" value="nights" name="nights">
+            <input type="number" id="nights" name="nights">
 
             <input type="submit" value="Send request" id="request-button">
         </form>
