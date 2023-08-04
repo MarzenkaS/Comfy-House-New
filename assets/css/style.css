@@ -22,139 +22,74 @@ h2 {
     background-color: aqua;
     background-size: cover;
     background-attachment: fixed;
+
 }
 
-/* header, logo and navigations links */
+/* header */
 
 header {
-    height: 140px;
+    height: 150px;
+    background-color: rgb(236, 221, 221);
 }
 
-#logo {
+/* logo */
 
+#logo {
     float: left;
     margin: 30px 30px;
     font-size: 50px;
     color: black;
-
+    line-height: 50px;
 }
 
 #logo a {
     text-decoration: none;
-
 }
 
 #logo:hover {
-    color: rgb(20, 201, 20);
+    color: rgb(11, 164, 210);
 }
 
-.logo-booking {
-    float: left;
-    margin: 30px 30px;
-    font-size: 50px;
-    color: black;
-}
-
-.logo-booking a {
-    text-decoration: none;
-}
-
-.logo-booking:hover {
-
-    color: rgb(236, 73, 95);
-}
-
-.logo-form-feedback {
-    float: left;
-    margin: 30px 30px;
-    font-size: 50px;
-    color: black;
-}
-
-.logo-form-feedback a {
-    text-decoration: none;
-}
-
-.logo-form-feedback:hover {
-    color: rgb(236, 73, 95);
-}
-
-
-.logo-gallery {
-    float: left;
-    margin: 30px 30px;
-    font-size: 50px;
-    color: black;
-}
-
-.logo-gallery a {
-    text-decoration: none
-}
-
-.logo-gallery:hover {
-    color: rgb(250, 77, 25);
-}
+/* navigation */
 
 #navigation {
     float: right;
     margin: 30px 30px;
-    font-size: 20px;
+    font-size: 25px;
     letter-spacing: 4px;
-
+    line-height: 50px;
+    margin-top: 50px;
 }
 
 #navigation a {
     text-decoration: none;
     color: inherit;
-
 }
 
 #navigation>li {
     float: right;
     list-style-type: none;
     margin-right: 10px;
-
-}
-
-#logo,
-#navigation {
-    line-height: 50px;
 }
 
 #navigation a:hover {
     border-bottom: 2px solid black;
-
-}
-
-.home-navigation {
-    color: rgb(20, 201, 20);
-}
-
-.form-feedback-navigation,
-.booking-navigation {
-    color: rgb(236, 73, 95);
-}
-
-.gallery-navigation {
-    color: rgb(250, 77, 25)
+    color: rgb(11, 164, 210);
 }
 
 /* main page section */
 
 main {
-
     height: 700px;
-    margin-top: 50px;
-    margin-bottom: 60px;
+    margin-top: 150px;
+    margin-bottom: 90px;
     margin-left: 20%;
     margin-right: 20%;
-
+    background-color: rgb(236, 221, 221);
 }
 
 .text,
 #list {
-    background-color: rgb(236, 221, 221);
-    opacity: 0.6;
     text-align: center;
     font-weight: 900;
     list-style-type: none;
@@ -162,13 +97,12 @@ main {
 
 #first-section {
     padding-bottom: 30px;
-
+    padding-top: 30px;
 }
 
 #second-section {
     padding-bottom: 30px;
 }
-
 
 #third-section {
     padding-bottom: 30px;
@@ -180,14 +114,27 @@ main {
     text-decoration: underline;
     text-shadow: 1px 1px;
     text-align: center;
-}
 
+    background-color: rgb(11, 164, 210);
+}
 
 /* audio */
 
-#audiofile {
-    margin-left: 38%;
+#audio {
+    margin-left: 0%;
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+    background-color: rgb(11, 164, 210);
+    margin-left: 33%;
+    margin-right: 33%;
 }
+
+#audiofile {
+    padding-top: 5px;
+}
+
+
 
 /* footer */
 
@@ -241,6 +188,18 @@ iframe {
 
 .social-media i {
     padding: 80px
+}
+
+.fa-facebook {
+    color: #1066f9;
+}
+
+.fa-instagram {
+    color: #ec22ac;
+}
+
+.fa-youtube {
+    color: #f51919;
 }
 
 /* gallery page */
