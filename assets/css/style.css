@@ -470,19 +470,14 @@ input[type=radio] {
         margin-left: 28%;
     }
 
+    #feedback {
+        padding-bottom: 10%;
+    }
 
-}
+    /* For medium screens sizes from 950px wide and down */
 
+    @media screen and (max-width: 800px) {}
 
+    /* For large to medium screens sizes from 1200px wide and down */
 
-
-/* For medium screens sizes from 950px wide and down */
-
-@media screen and (max-width: 800px) {}
-
-
-
-
-/* For large to medium screens sizes from 1200px wide and down */
-
-@media screen and (max-width: 1200px) {}
+    @media screen and (max-width: 1200px) {}
