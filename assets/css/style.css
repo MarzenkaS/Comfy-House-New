@@ -473,11 +473,43 @@ input[type=radio] {
     #feedback {
         padding-bottom: 10%;
     }
+}
 
-    /* For medium screens sizes from 950px wide and down */
+/* For medium screens sizes from 950px wide and down */
 
-    @media screen and (max-width: 800px) {}
+@media screen and (max-width: 900px) {
+    body {
+        width: 850px;
+        margin-left: 0;
+        margin-right: 0;
+    }
 
-    /* For large to medium screens sizes from 1200px wide and down */
+    main {
+        height: 650px;
+        margin-left: 0;
+        margin-top: 15%;
+        width: 850px;
+    }
 
-    @media screen and (max-width: 1200px) {}
+    #main-image {
+        width: 850px;
+    }
+
+    header {
+        width: 850px;
+    }
+
+    iframe {
+        margin-left: 25px;
+    }
+
+    #audio {
+        margin-right: 30%;
+        margin-right: 30%;
+    }
+
+
+}
+
+/* For large to medium screens sizes from 1200px wide and down *
+    @media screen and (max-width: 1200)*/
