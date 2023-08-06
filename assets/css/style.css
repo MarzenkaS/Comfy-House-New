@@ -390,6 +390,7 @@ input[type=radio] {
 
     #third-section h2 {
         margin-right: 40%;
+        margin-left: 40%;
     }
 
     iframe {
@@ -445,6 +446,28 @@ input[type=radio] {
         font-size: 25px;
         text-decoration: underline;
         text-align: center;
+    }
+
+    #booking-image {
+        width: 430px;
+    }
+
+    form {
+        margin-top: 150px;
+        width: 300px;
+    }
+
+    #reservation {
+        margin-left: 15%;
+    }
+
+    #form-section {
+        padding: 0;
+        margin-bottom: 100px;
+    }
+
+    #request-button {
+        margin-left: 28%;
     }
 
 
