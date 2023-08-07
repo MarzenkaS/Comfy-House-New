@@ -372,45 +372,70 @@ input[type=radio] {
 
 @media screen and (max-width: 900px) {
     body {
-        width: 850px;
+        width: 820px;
         margin-left: 0;
         margin-right: 0;
+    }
+
+    #navigation {
+        margin-left: 0;
+    }
+
+    #navigation a {
+        font-size: 20px;
+        letter-spacing: 2px;
+        padding: 10px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+
     }
 
     main {
         height: 650px;
         margin-left: 0;
-        margin-top: 40%;
-        width: 850px;
+        margin-top: 15%;
+        width: 820px;
     }
 
     #main-image {
-        width: 300px;
+        width: 820px;
     }
 
     header {
-        width: 850px;
+        width: 820px;
         margin-left: 0;
         margin-right: 0;
     }
 
     iframe {
-        margin-left: 25px;
+        margin-left: 0;
     }
 
     #audio {
         width: 300px;
-        margin-left: 100%;
+        margin-left: 33%;
     }
 
     #contact {
         text-align: center;
-        margin-left: 100%;
+        margin-left: 33%;
         width: 300px;
     }
 
+    form {
+        margin-top: 150px;
+        width: 400px;
+        padding: 0;
+    }
+
+    #reservation {
+        margin-left: 20%;
+        margin-right: 5%;
+        margin-top: 20%;
+    }
+
     footer {
-        width: 850px;
+        width: 820px;
         position: static;
         text-align: center;
     }
