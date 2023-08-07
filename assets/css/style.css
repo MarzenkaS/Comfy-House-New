@@ -416,29 +416,29 @@ input[type=radio] {
     }
 }
 
-/* For small screens sizes from 700px wide and down */
+/* For small screens sizes from 500px wide and down */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 500px) {
 
     body {
-        width: 740px;
+        width: 440px;
         margin-left: 0;
         margin-right: 0;
     }
 
     main {
-        height: 700px;
+        height: 1000px;
         margin-left: 0;
         margin-top: 15%;
-        width: 740px;
+        width: 440px;
     }
 
     #main-image {
-        width: 740px;
+        width: 440px;
     }
 
     header {
-        width: 740px;
+        width: 440px;
     }
 
     #logo {
@@ -447,13 +447,16 @@ input[type=radio] {
     }
 
     #navigation {
-        text-align: center;
-        margin-left: 0;
+        margin-top: 0;
+
     }
 
     #navigation a {
         font-size: 20px;
-        letter-spacing: 1px;
+        letter-spacing: 2px;
+        padding: 20px;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
 
     #navigation a:hover {
@@ -462,7 +465,7 @@ input[type=radio] {
     }
 
     #audio {
-        margin-left: 30%;
+        margin-left: 15%;
         margin-right: 15%;
         margin-bottom: 7%;
     }
@@ -473,7 +476,7 @@ input[type=radio] {
     }
 
     iframe {
-        width: 740px;
+        width: 440px;
         margin-left: 0;
         margin-right: 0;
     }
@@ -485,7 +488,7 @@ input[type=radio] {
     }
 
     footer {
-        width: 740px;
+        width: 440px;
         position: static;
         text-align: center;
     }
@@ -507,7 +510,7 @@ input[type=radio] {
     }
 
     #gallery-image {
-        width: 740px;
+        width: 400px;
     }
 
     #photos {
@@ -528,7 +531,7 @@ input[type=radio] {
     }
 
     #booking-image {
-        width: 740px;
+        width: 440px;
     }
 
     form {
@@ -537,8 +540,9 @@ input[type=radio] {
     }
 
     #reservation {
-        margin-left: 22%;
-        margin-top: 15%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 20%;
     }
 
     #form-section {
