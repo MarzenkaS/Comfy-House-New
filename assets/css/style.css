@@ -337,11 +337,11 @@ input[type=radio] {
 
 /* media queries */
 
-/* For large to medium screens sizes from 1300px wide and down */
+/* For large to medium screens sizes from 1350px wide and down */
 
-@media screen and (max-width: 1300) {
+@media screen and (max-width: 1350) {
     body {
-        width: 1200px;
+        width: 1300px;
         margin-left: 0;
         margin-right: 0;
     }
@@ -350,21 +350,22 @@ input[type=radio] {
         height: 900px;
         margin-left: 0;
         margin-top: 10%;
-        width: 1200px;
+        width: 1300px;
         margin-right: 60%;
     }
 
     #main-image {
-        width: 1200px;
+        width: 1300px;
     }
 
     header {
-        width: 1200px;
+        width: 1300px;
     }
 
     iframe {
         width: 300px;
-        margin-right: 30%;
+        margin-right: 20%;
+        margin-left: 25%;
     }
 }
 
