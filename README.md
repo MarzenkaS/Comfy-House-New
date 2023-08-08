@@ -1,3 +1,3 @@
-# My very first page
+# Comfy House In Las Terrenas
 
-Welcome!
+I created the website for people who like traveling to exotic places and for those for whom intimacy and privacy are of great importance.
