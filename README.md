@@ -104,6 +104,16 @@ I had a problem to get a high performance above 90. I had a few mistakes.
 ### Other browsers
 
 I tested my website on Google Chrome, Microsoft Edge and Mozilla Firefox. Works on all browsers. Unfortunately, I couldn't check personally on Safari web browser. Below screenshot from Mozilla Firefox.
+
 ![Mozilla Firefox](https://github.com/MarzenkaS/Comfy-House-New/blob/main/images%20for%20readme/firefox.png?raw=true)
 
 ### Different screen sizes
+
+
+
+## Deployment
+
+## Credits
+
+### Content
+### Media

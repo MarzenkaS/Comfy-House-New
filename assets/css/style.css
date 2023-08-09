@@ -363,9 +363,9 @@ input[type=radio] {
     }
 
     iframe {
-        width: 300px;
+        width: 400px;
         margin-right: 20%;
-        margin-left: 25%;
+        margin-left: 35%;
     }
 }
 
@@ -409,7 +409,7 @@ input[type=radio] {
     }
 
     iframe {
-        margin-left: 0;
+        margin-left: 28%;
     }
 
     #audio {
