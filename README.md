@@ -56,7 +56,7 @@ In addition, there are plenty of attractions in the area, so everyone will find 
 7. _Gallery_
    
 - The photo gallery shows the user the look of the house inside and out as well as the garden and beach views.
-- Photo gallery divided into 3 sessions. The first showed the house, the second the beach and the third the   garden with a swimming pool
+- Photo gallery divided into 3 sessions. The first showed the house, the second the beach and the third the  garden with a swimming pool
 - After seeing the photos, the user knows what to expect upon arrival.
 
 ![Gallery house](https://github.com/MarzenkaS/Comfy-House-New/blob/main/images%20for%20readme/gallery1.png?raw=true)
@@ -78,7 +78,32 @@ In addition, there are plenty of attractions in the area, so everyone will find 
 
 ### Validator testing
 
-1. HTML W3C Validator
-   I had wrong value for attribute src on element audio. There was space which I deleted. Second error was tittle which I gave for <iframe> for google map. So deleting tittle fixed it.
+1. _HTML W3C validator_ 
 
-   ![HTML validator with error]()
+I had wrong value for attribute src on element audio. There was space which I deleted. Second error was tittle which I gave for iframe for google map. So deleting tittle fixed it.
+
+![HTML with error](https://github.com/MarzenkaS/Comfy-House-New/blob/main/images%20for%20readme/html%20error.png?raw=true)
+![HTML fixed](https://github.com/MarzenkaS/Comfy-House-New/blob/main/images%20for%20readme/html%20fixed.png?raw=true)
+
+2. _CSS W3C validator_
+
+I forgot to add unit px after number. 
+
+![CSS with error](https://github.com/MarzenkaS/Comfy-House-New/blob/main/images%20for%20readme/css%20error.png?raw=true)
+![CSS fixed](https://github.com/MarzenkaS/Comfy-House-New/blob/main/images%20for%20readme/css%20fixed.png?raw=true)
+
+### Lighthouse
+
+I had a problem to get a high performance above 90. I had a few mistakes. 
+- My audio file was too big so I used a converter for mp3 files. 
+- Another problem was the lack of aria-label for the iframe that I used to embed the google map on my home page. 
+- I also had to compress backgroud image.
+
+![Lighthouse](https://github.com/MarzenkaS/Comfy-House-New/blob/main/images%20for%20readme/Lighthouse.png?raw=true)
+
+### Other browsers
+
+I tested my website on Google Chrome, Microsoft Edge and Mozilla Firefox. Works on all browsers. Unfortunately, I couldn't check personally on Safari web browser. Below screenshot from Mozilla Firefox.
+![Mozilla Firefox](https://github.com/MarzenkaS/Comfy-House-New/blob/main/images%20for%20readme/firefox.png?raw=true)
+
+### Different screen sizes
