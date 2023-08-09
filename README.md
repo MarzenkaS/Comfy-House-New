@@ -75,3 +75,10 @@ In addition, there are plenty of attractions in the area, so everyone will find 
 ![Feedback](https://github.com/MarzenkaS/Comfy-House-New/blob/main/images%20for%20readme/confirmation2.png?raw=true)
 
 ## Testing
+
+### Validator testing
+
+1. HTML W3C Validator
+   I had wrong value for attribute src on element audio. There was space which I deleted. Second error was tittle which I gave for <iframe> for google map. So deleting tittle fixed it.
+
+   ![HTML validator with error]()
