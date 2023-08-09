@@ -247,7 +247,7 @@ footer {
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-color: aquamarine;
+    background-color: blanchedalmond;
 }
 
 form {
@@ -339,7 +339,7 @@ input[type=radio] {
 
 /* For large to medium screens sizes from 1350px wide and down */
 
-@media screen and (max-width: 1350) {
+@media screen and (max-width: 1350px) {
     body {
         width: 1300px;
         margin-left: 0;
