@@ -1,4 +1,4 @@
-# Comfy House In Las Terrenas
+# Comfy House In Las Terrenas, Dominican Republic
 
 I created the website for people who like traveling to exotic places and for those for whom intimacy and privacy are of great importance. I want my guests to feel in my home as their own. My house is very spacious so it's perfect for people who don't like crowds in hotels. 
 In addition, there are plenty of attractions in the area, so everyone will find something interesting for themselves. Pets are welcome. We often can't take them with us and that's why I give guests the opportunity to spend their holidays with their pets at my place.
