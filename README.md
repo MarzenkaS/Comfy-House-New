@@ -99,7 +99,12 @@ I had a problem to get a high performance above 90. I had a few mistakes.
 - Another problem was the lack of aria-label for the iframe that I used to embed the google map on my home page. 
 - I also had to compress backgroud image.
 
-![Lighthouse home desktop](https://github.com/MarzenkaS/Comfy-House-New/blob/main/images%20for%20readme/Lighthouse.png?raw=true)
+![Lighthouse home desktop](https://github.com/MarzenkaS/Comfy-House-New/blob/main/docs/Lighthouse.png?raw=true)
+
+
+
+
+
 
 ### Other browsers
 
@@ -107,11 +112,47 @@ I tested my website on Google Chrome, Microsoft Edge and Mozilla Firefox. Works 
 
 ### Different screen sizes
 
+Below are examples of how my website looks on different devices.
+
+### Wave
+
+I used WAVE Evaluation Tool to evaluate web accessibility within my browser. The result below.
+### Bugs
+
+1. Once my html code went through the validator I had many bugs because some of my images had space in name. So after removing spaces in names all errors disapeared.
+ 
+2. Radio Button issues.There is  a Radio Button option on my Booking page. There are 2 options: YES or NO, and I was supossed to choose only one option but problem was that I could choose both at the same time.
+
+3. Another problem was comming from iframe where I embedded Google Map. I didn't have aria-label. 
+
+4. I had problems also with size for audio file and bacakground image on Home page. So both I compressed and thanks to that i achieved higher points when I used Lighthosue.
+
+5. Issues with Media Query for large and medium screen sizes. 
 
 
 ## Deployment
 
+The site was deployed to GitHub. In the GitHub repository I went to Settings and choosed Pages section. From the source section drop-down menu, selected Deploy from a branch. Below I set up Main for branch and I saved it. After that the page was automatically refreshed.
+
+Here you can see live link [Comfy House](https://marzenkas.github.io/Comfy-House-New/)
+
 ## Credits
 
+If i get stucked in a project I used [Code Institute](https://learn.codeinstitute.net/dashboard), [W3Schools](https://www.w3schools.com/) or [Mozilla Developer](https://developer.mozilla.org/en-US/) to find needed information when writing code or CSS.
+
 ### Content
+
+1. The text for the home page was my idea as well as the design of each page.
+2. The icons in the footer come from [Font Awesome](https://fontawesome.com/)
+3. I used two fonts which were taken from [Google Fonts](https://fonts.google.com/)
+
 ### Media
+
+1. Bacground image for home page i took from [picjumbo.com](https://picjumbo.com/search/+beach) 
+2. Bacground image for Gallery, Booking and Form Fedback page were taken from [pixabay.com](https://pixabay.com)
+3. Images for house come from [pexels.com](https://www.pexels.com)
+4. Images for beach, garten and swimming pool are private.
+5. Map was taken from [Google Maps](https://www.google.com/maps)
+6. Audio file for home page was taken from [pixabay.com](https://pixabay.com/pl/music/bije-lofi-study-112191/)
+9. I needed to compress all my images and for that I used [tinypng](https://tinypng.com/)
+9. For compressing audio file I needed [xconvert.com](https://www.xconvert.com/)
