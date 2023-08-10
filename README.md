@@ -141,7 +141,7 @@ I used WAVE Evaluation Tool to evaluate web accessibility within my browser. The
 
 1. Once my html code went through the validator I had many bugs because some of my images had space in name. So after removing spaces in names all errors disapeared.
  
-2. Radio Button issues.There is  a Radio Button option on my Booking page. There are 2 options: YES or NO, and I was supossed to choose only one option but problem was that I could choose both at the same time.
+2. Radio Button issues.There is a Radio Button option on my Booking page. There are 2 options: YES or NO, and I was supossed to choose only one option but problem was that I could choose both at the same time. I conntact via Tutor Assistance and mistake was that value for name had a typo. Instead pets there was pest.
 
 3. Another problem was comming from iframe where I embedded Google Map. I didn't have aria-label. 
 
