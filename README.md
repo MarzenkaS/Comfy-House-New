@@ -3,7 +3,7 @@
 I created the website for people who like traveling to exotic places and for those for whom intimacy and privacy are of great importance. I want my guests to feel in my home as their own. My house is very spacious so it's perfect for people who don't like crowds in hotels. 
 In addition, there are plenty of attractions in the area, so everyone will find something interesting for themselves. Pets are welcome. We often can't take them with us and that's why I give guests the opportunity to spend their holidays with their pets at my place.
 
-![Screenshot of my website with different screen sizes](https://raw.githubusercontent.com/MarzenkaS/Comfy-House-New/8fdf8ac98f30402029c7dc64070423822fd27d1d/images%20for%20readme/main%20view.png)
+![Screenshot of my website with different screen sizes](https://github.com/MarzenkaS/Comfy-House-New/blob/main/docs/main.view.png?raw=true)
 
 ## Features
 
@@ -15,16 +15,16 @@ In addition, there are plenty of attractions in the area, so everyone will find 
 - Navigation bar is available on all 4 pages. Responsive navigation bar includes links to Home page, Gallery, Booking page and the fourth page, which is a confirmation of the booking request. 
 - Allows to easily move between pages.
 
-![Navigation Bar](https://github.com/MarzenkaS/Comfy-House-New/blob/main/images%20for%20readme/nav%20bar.png?raw=true)
+![Navigation Bar](https://github.com/MarzenkaS/Comfy-House-New/blob/main/docs/nav.bar.png?raw=true)
 
-2. _Main section of Home page_
+1. _Main section of Home page_
 
 - Contains three sections. The first section is a general description of the guest offer. Description of the house and for whom it is addressed. The second section describes the possibilities that the house and the surrounding area have to offer. The third section concerns the prices for adults, children and pets.
 - It helps to understand who the website is created for
 
-![Main content](https://github.com/MarzenkaS/Comfy-House-New/blob/main/images%20for%20readme/main%20content.png?raw=true)
+![Main content](https://github.com/MarzenkaS/Comfy-House-New/blob/main/docs/main.content.png?raw=true)
 
-3. _Audio_ 
+1. _Audio_ 
 
 - Music allows you to feel the atmosphere and imagine yourself on the island.
 
@@ -35,9 +35,9 @@ In addition, there are plenty of attractions in the area, so everyone will find 
 - The map shows the exact location of the house.
 - Allows also the user to check the area.
 
-![Google map](https://github.com/MarzenkaS/Comfy-House-New/blob/main/images%20for%20readme/google%20map.png?raw=true)   
+![Google map](https://github.com/MarzenkaS/Comfy-House-New/blob/main/docs/google.map.png?raw=true)
 
-5. _Contact_
+1. _Contact_
 
 - The exact address of the house, telephone number and e-mail address are included. Can be founded on first, third and fourth page.
 
@@ -82,15 +82,15 @@ In addition, there are plenty of attractions in the area, so everyone will find 
 
 I had wrong value for attribute src on element audio. There was space which I deleted. Second error was tittle which I gave for iframe for google map. So deleting tittle fixed it.
 
-![HTML with error](https://github.com/MarzenkaS/Comfy-House-New/blob/main/images%20for%20readme/html%20error.png?raw=true)
-![HTML fixed](https://github.com/MarzenkaS/Comfy-House-New/blob/main/images%20for%20readme/html%20fixed.png?raw=true)
+![HTML with error](https://github.com/MarzenkaS/Comfy-House-New/blob/main/docs/html.error.png?raw=true)
+![HTML fixed](https://github.com/MarzenkaS/Comfy-House-New/blob/main/docs/html.fixed.png?raw=true)
 
-2. _CSS W3C validator_
+1. _CSS W3C validator_
 
 I forgot to add unit px after number. 
 
-![CSS with error](https://github.com/MarzenkaS/Comfy-House-New/blob/main/images%20for%20readme/css%20error.png?raw=true)
-![CSS fixed](https://github.com/MarzenkaS/Comfy-House-New/blob/main/images%20for%20readme/css%20fixed.png?raw=true)
+![CSS with error](https://github.com/MarzenkaS/Comfy-House-New/blob/main/docs/css.error.png?raw=true)
+![CSS fixed](https://github.com/MarzenkaS/Comfy-House-New/blob/main/docs/css.fixed.png?raw=true)
 
 ### Lighthouse
 
@@ -99,13 +99,11 @@ I had a problem to get a high performance above 90. I had a few mistakes.
 - Another problem was the lack of aria-label for the iframe that I used to embed the google map on my home page. 
 - I also had to compress backgroud image.
 
-![Lighthouse](https://github.com/MarzenkaS/Comfy-House-New/blob/main/images%20for%20readme/Lighthouse.png?raw=true)
+![Lighthouse home desktop](https://github.com/MarzenkaS/Comfy-House-New/blob/main/images%20for%20readme/Lighthouse.png?raw=true)
 
 ### Other browsers
 
 I tested my website on Google Chrome, Microsoft Edge and Mozilla Firefox. Works on all browsers. Unfortunately, I couldn't check personally on Safari web browser. Below screenshot from Mozilla Firefox.
-
-![Mozilla Firefox](https://github.com/MarzenkaS/Comfy-House-New/blob/main/images%20for%20readme/firefox.png?raw=true)
 
 ### Different screen sizes
 
