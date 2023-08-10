@@ -28,9 +28,9 @@ In addition, there are plenty of attractions in the area, so everyone will find 
 
 - Music allows you to feel the atmosphere and imagine yourself on the island.
 
-![Audio file](https://github.com/MarzenkaS/Comfy-House-New/blob/main/images%20for%20readme/audio.png?raw=true)
+![Audio file](https://github.com/MarzenkaS/Comfy-House-New/blob/main/docs/audio.png?raw=true)
 
-4. _Google map_
+1. _Google map_
 
 - The map shows the exact location of the house.
 - Allows also the user to check the area.
@@ -41,7 +41,7 @@ In addition, there are plenty of attractions in the area, so everyone will find 
 
 - The exact address of the house, telephone number and e-mail address are included. Can be founded on first, third and fourth page.
 
-![Contact](https://github.com/MarzenkaS/Comfy-House-New/blob/main/images%20for%20readme/contact.png?raw=true)
+![Contact](https://github.com/MarzenkaS/Comfy-House-New/blob/main/docs/contact.png?raw=true)
 
 6. _Footer_
 
@@ -51,7 +51,7 @@ In addition, there are plenty of attractions in the area, so everyone will find 
 - Provides the potential guest with more information about the house and its surroundings.
 - The user can read the opinions of other people.
 
-![Footer](https://github.com/MarzenkaS/Comfy-House-New/blob/main/images%20for%20readme/footer.png?raw=true)
+![Footer](https://github.com/MarzenkaS/Comfy-House-New/blob/main/docs/footer.png?raw=true)
 
 7. _Gallery_
    
@@ -59,20 +59,20 @@ In addition, there are plenty of attractions in the area, so everyone will find 
 - Photo gallery divided into 3 sessions. The first showed the house, the second the beach and the third the  garden with a swimming pool
 - After seeing the photos, the user knows what to expect upon arrival.
 
-![Gallery house](https://github.com/MarzenkaS/Comfy-House-New/blob/main/images%20for%20readme/gallery1.png?raw=true)
-![Gallery beach](https://github.com/MarzenkaS/Comfy-House-New/blob/main/images%20for%20readme/gallery3.png?raw=true)
+![Gallery house](https://github.com/MarzenkaS/Comfy-House-New/blob/main/docs/gallery1.png?raw=true)
+![Gallery beach](https://github.com/MarzenkaS/Comfy-House-New/blob/main/docs/gallery3.png?raw=true)
 
 8. _Booking page_
 
 - Allows the user to send an inquiry regarding the preferred number of nights in an easy and quick way.
 
-![Request form](https://github.com/MarzenkaS/Comfy-House-New/blob/main/images%20for%20readme/reservation.png?raw=true)
+![Reservation](https://github.com/MarzenkaS/Comfy-House-New/blob/main/docs/reservation.png?raw=true)
 
 9. _Form feedback page_
 
 - Confirmation of sending the request by the user.
 
-![Feedback](https://github.com/MarzenkaS/Comfy-House-New/blob/main/images%20for%20readme/confirmation2.png?raw=true)
+![Confirmation](https://github.com/MarzenkaS/Comfy-House-New/blob/main/docs/confirmation2.png?raw=true)
 
 ## Testing
 
@@ -85,7 +85,7 @@ I had wrong value for attribute src on element audio. There was space which I de
 ![HTML with error](https://github.com/MarzenkaS/Comfy-House-New/blob/main/docs/html.error.png?raw=true)
 ![HTML fixed](https://github.com/MarzenkaS/Comfy-House-New/blob/main/docs/html.fixed.png?raw=true)
 
-1. _CSS W3C validator_
+2. _CSS W3C validator_
 
 I forgot to add unit px after number. 
 
@@ -99,12 +99,21 @@ I had a problem to get a high performance above 90. I had a few mistakes.
 - Another problem was the lack of aria-label for the iframe that I used to embed the google map on my home page. 
 - I also had to compress backgroud image.
 
+I made a Lighthouse for each page while being incognito. First four results are for desktop and another four for mobile.
+
+- Desktop
+
 ![Lighthouse home desktop](https://github.com/MarzenkaS/Comfy-House-New/blob/main/docs/Lighthouse.png?raw=true)
+![Lighthouse gallery desktop](https://github.com/MarzenkaS/Comfy-House-New/blob/main/docs/gallery.desktop.png?raw=true)
+![Lighthouse booking desktop](https://github.com/MarzenkaS/Comfy-House-New/blob/main/docs/booking.desktop.png?raw=true)
+![Lighthouse feeback desktop](https://github.com/MarzenkaS/Comfy-House-New/blob/main/docs/feedback.desktop.png?raw=true)
 
+- Mobile
 
-
-
-
+![Lighthouse home mobile](https://github.com/MarzenkaS/Comfy-House-New/blob/main/docs/home.mobile.png?raw=true)
+![Lighthouse gallery mobile](https://github.com/MarzenkaS/Comfy-House-New/blob/main/docs/gallery.mobile.png?raw=true)
+![Lighthouse booking mobile](https://github.com/MarzenkaS/Comfy-House-New/blob/main/docs/booking.mobile.png?raw=true)
+![Lighthouse feedback mobile](https://github.com/MarzenkaS/Comfy-House-New/blob/main/docs/feedback.mobile.png?raw=true)
 
 ### Other browsers
 
@@ -112,11 +121,22 @@ I tested my website on Google Chrome, Microsoft Edge and Mozilla Firefox. Works 
 
 ### Different screen sizes
 
-Below are examples of how my website looks on different devices.
+Below are examples of how my website looks on different devices. First two examples are phones. Third is a tablet and fourth is a laptop.
+
+![GalaxyA51/71](https://github.com/MarzenkaS/Comfy-House-New/blob/main/docs/galaxya51.71.png?raw=true)
+![iPhone 12 Pro](https://github.com/MarzenkaS/Comfy-House-New/blob/main/docs/iPhone12Pro.png?raw=true)
+![Tablet iPad Air](https://github.com/MarzenkaS/Comfy-House-New/blob/main/docs/tablet.ipad.air.png?raw=true)
+![Laptop Lenovo](https://github.com/MarzenkaS/Comfy-House-New/blob/main/docs/laptop.lenovo320s.png?raw=true)
 
 ### Wave
 
 I used WAVE Evaluation Tool to evaluate web accessibility within my browser. The result below.
+
+![Home page](https://github.com/MarzenkaS/Comfy-House-New/blob/main/docs/home.wave.png?raw=true)
+![Gallery page](https://github.com/MarzenkaS/Comfy-House-New/blob/main/docs/gallery.wave.png?raw=true)
+![Booking page](https://github.com/MarzenkaS/Comfy-House-New/blob/main/docs/booking.wave.png?raw=true)
+![Feedback page](https://github.com/MarzenkaS/Comfy-House-New/blob/main/docs/feedback.wave.png?raw=true)
+
 ### Bugs
 
 1. Once my html code went through the validator I had many bugs because some of my images had space in name. So after removing spaces in names all errors disapeared.
@@ -128,7 +148,6 @@ I used WAVE Evaluation Tool to evaluate web accessibility within my browser. The
 4. I had problems also with size for audio file and bacakground image on Home page. So both I compressed and thanks to that i achieved higher points when I used Lighthosue.
 
 5. Issues with Media Query for large and medium screen sizes. 
-
 
 ## Deployment
 
@@ -142,7 +161,7 @@ If i get stucked in a project I used [Code Institute](https://learn.codeinstitut
 
 ### Content
 
-1. The text for the home page was my idea as well as the design of each page.
+1. The text for the home page was my idea as well as the design of each page. At beggining I did some some scretch on papaer and later, while creating the site, new ideas were coming to my mind.
 2. The icons in the footer come from [Font Awesome](https://fontawesome.com/)
 3. I used two fonts which were taken from [Google Fonts](https://fonts.google.com/)
 
