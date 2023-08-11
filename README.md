@@ -147,7 +147,7 @@ I used WAVE Evaluation Tool to evaluate web accessibility within my browser. The
 
 4. I had problems also with size for audio file and bacakground image on Home page. So both I compressed and thanks to that i achieved higher points when I used Lighthosue.
 
-5. Issues with Media Query for large and medium screen sizes. I fixed it by changing value for width from px to %. I did also change for margin.
+5. Issues with media query for large,medium and small screen sizes. My website wasn't responsive. I fixed it by changing value for width from px to %. I did also change for margin.
 
 ## Deployment
 
