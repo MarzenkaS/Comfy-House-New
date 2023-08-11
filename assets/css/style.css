@@ -453,7 +453,7 @@ input[type=radio] {
     main {
         height: 1000px;
         margin-left: 0;
-        margin-top: 25%;
+        margin-top: 30%;
         margin-bottom: 15%;
         width: 100%;
     }
@@ -469,7 +469,7 @@ input[type=radio] {
     #logo {
         float: left;
         margin-left: 2px;
-        font-size: 25px;
+        font-size: 35px;
     }
 
     #navigation {
@@ -481,6 +481,7 @@ input[type=radio] {
         letter-spacing: 1px;
         padding: 10px;
         margin: 0 auto;
+        text-align: center;
         text-align: center;
     }
 
@@ -532,17 +533,18 @@ input[type=radio] {
     }
 
     #gallery-image {
-        width: 450px;
+        width: 100%;
     }
 
     #photos {
         margin-top: 0;
+        text-align: center;
     }
 
     #photos img {
-        width: 80%;
+        width: 90%;
         height: 40%;
-        margin-left: 10%;
+        margin: 0 auto;
     }
 
     #photos h2 {
@@ -553,23 +555,24 @@ input[type=radio] {
     }
 
     #booking-image {
-        width: 440px;
+        width: 100%;
     }
 
     form {
-        margin-top: 150px;
-        width: 400px;
+        width: 100%;
     }
 
     #reservation {
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-top: 20%;
+        margin-left: 10%;
+        margin-right: 0;
+        margin-top: 30%;
+        width: 100%;
     }
 
     #form-section {
         padding: 0;
         margin-bottom: 100px;
+        width: 80%;
     }
 
     #request-button {

@@ -7,7 +7,6 @@ In addition, there are plenty of attractions in the area, so everyone will find 
 
 ## Features
 
-
 ### Existing Features
 
 1. _Navigation Bar_
