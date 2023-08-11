@@ -445,7 +445,7 @@ input[type=radio] {
 @media screen and (max-width: 500px) {
 
     body {
-        width: 440px;
+        width: 100%;
         margin-left: 0;
         margin-right: 0;
     }
@@ -454,7 +454,7 @@ input[type=radio] {
         height: 1000px;
         margin-left: 0;
         margin-top: 15%;
-        width: 440px;
+        width: 100%;
     }
 
     #main-image {
@@ -534,7 +534,7 @@ input[type=radio] {
     }
 
     #gallery-image {
-        width: 400px;
+        width: 450px;
     }
 
     #photos {
